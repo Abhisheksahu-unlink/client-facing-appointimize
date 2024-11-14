@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+body{
+    font-family: "Outfit", serif;
+}
+.header {
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+.logo-div a {
+    display: block;
+    color: #fff;
+    padding: 0px 0;
+    position: relative;
+    top: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+a.navlink-top {
+    border: 1px solid #fff;
+    padding: 6px 20px 4px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .85rem;
+    font-weight: 600;
+    letter-spacing: .03rem;
+    border-radius: 4px;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.shedule_appointment-row{
+    background: transparent;
+    border: 1px solid #dedede;
+    padding: 20px 20px 20px;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+button.booknow-button {
+    position: absolute;
+    right: 0;
+    bottom: -47px;
+    z-index: 1;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    border: none;
+}
+button.booknow-button:hover, button.booknow-button:focus{
+    background-image: linear-gradient(to right, #00f2fe 0%, #4facfe 100%) !important;
+}
+.shedule_appointment-row-column .ant-select {
+    width: 95%;
+}
+.shedule_appointment-row-column .ant-picker {
+    width: 95%;
+}
+.shedule_appointment-row-column .ant-space {
+    width: 100%;
+}
+h3.schedule-appointment-heading {
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    margin: 40px auto 0;
+    text-align: center;
+    width: fit-content;
+    padding: 8px 20px;
+    font-size: 2.2rem;
+    color: #fff;
+    border-radius: 10px 10px 0px 0px;
+    font-family: "Carattere", cursive;
+}
+.footer-left{
+    color:#fff
+}
+
+.footer{
+    background-image: linear-gradient(to right, #00f2fe 0%, #4facfe 100%) !important;
+}
+.company-profile{
+    padding-top: 50px;
+}
+.company-profile h2{
+    font-family: "Carattere", cursive;
+    font-size: 2.2rem;
+    color: #000;
+    background: -webkit-linear-gradient(#00f2fe, #4facfe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
